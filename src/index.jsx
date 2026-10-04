@@ -22,7 +22,7 @@ import { setupMockAdapter } from "./mock/mockAdapter";
 
 const jss = create(jssPreset());
 
-unregister();
+// unregister();
 polyfill();
 
 if (import.meta.env.VITE_MOCK_MODE === "true") {
